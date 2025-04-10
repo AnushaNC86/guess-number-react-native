@@ -13,7 +13,7 @@ import Colors from "../constants/colors";
 import PrimaryButton from "../components/ui/PrimaryButton";
 
 function GameOverScreen({ roundsNumber, userNumber, onStartNewGame }) {
-  const { width, height } = useWindowDimensions();
+  const { width, height } = useWindowDimensions(); // dimensions
 
   let imageSize = 300;
   if (width < 300) {
